@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+    margin: auto;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+   margin: 10px auto;
+}
+
+.box {
+    background-color: lightgray;
+    height: 25px;
+    width: 25px;
+}
+.fx {
+    display: flex;
+    justify-content: space-between;
+}
+.circle {
+    background-color: lightgray;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.search {
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+    border: .1px solid lightgray;
+}
+.logo {
+    padding-top: 159px;
+    margin: auto;
+    height: auto;
+    max-width: 370px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+form {
+    margin: 20px auto 10px;
+}
+button {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    margin: 6px;
+}
+
+footer {
+
+    height: 40px;
+    background-color: lightgray;
+    width: 100%;
+bottom: 0;
+position: absolute;
+}
+.f-left {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.f-left li {
+    padding-left: 20px;
+}
+
+.f-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.f-right li {
+    padding-right: 20px;
+}
